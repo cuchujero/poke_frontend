@@ -1,0 +1,46 @@
+body{
+  background-color: #f6ce06;
+}
+
+.main-background {
+  background-color: #f6ce06;
+}
+
+.half-square {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  background-color: black;
+}
+
+.top-left-half-square {
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.top-right-half-square {
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%) rotate(-45deg);
+}
+
+.quarter-circle {
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.bottom-left-circle {
+  bottom: 0;
+  left: 0;
+  transform: translate(-50%, 50%);
+}
+
+.bottom-right-circle {
+  bottom: 0;
+  right: 0;
+  transform: translate(50%, 50%);
+}
