@@ -100,7 +100,7 @@ const PokemonList: React.FC = () => {
                 </p>
                 {pokemon.pre_evo && (
                   <div className="pre-evolucion">
-                    <p className="principio_pre_evo">Evoluciona en: </p>
+                    <p className="principio_pre_evo">Evoluciona de: </p>
                     <span>{pokemon.pre_evo.nombre}</span>
                   </div>
                 )}
